@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <!-- jQuery first, then Bootstrap JS -->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="images/youtube-favicon.png" type="image/x-icon">
+
+    <title>(27) Youtube</title>
+  </head>
+  <body>
+
+    <!------ Navbar Start ------>
+     <nav class="navbar navigation-bar navbar-expand-sm navbar-light bg-light py-1">
+        <i class="fas fa-bars ml-2 mr-3"></i>
+     <a class="navbar-brand" href="#">
+       <img src="images/youtube-logo-1.png" class="logo" alt="">
+     </a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="input-group mb-1 search-bar">
+            <input type="text" class="form-control nav-search-bar" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+            </div>
+        </div>
+        
+      <ul class="navbar-nav ml-auto nav-icons">
+        <li class="nav-item active">
+          <a class="nav-link current" href="#"><i class="fas fa-video"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-th"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-share"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/initials.jpg" alt="" class="initials"></a>
+        </li>
+
+      </ul>
+     </div>
+    
+     </nav>
+
+<!------ Navbar End ------>
+<div id="wrapper">
+  <section class="sidebar">
+    <nav id="side-nav">
+        <div class="side-nav-list">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-home icons mr-4 mt-4"></i><span class="text">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-th icons mr-4"></i><span class="text">Trending</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-share icons mr-4"></i><span class="text">Subscription</span></a>
+            </li>
+            <hr>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-folder icons mr-4"></i><span class="text">Library</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-history icons mr-4"></i><span class="text">History</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-clock icons mr-4"></i><span class="text">Watch later</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-thumbs-up icons mr-4"></i><span class="text">Liked videos</span></a>
+            </li>
+            <hr>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-tv icons mr-3"></i><span class="text">Channel</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"><i class="fas fa-caret-down icons mr-4"></i><span class="text">Show more</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-sliders-h icons mr-4"></i><span class="text">Links</span></a>
+            </li>
+            <hr>
+            <h4 class="side-heading">More From Youtube</h4>
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-cog icons mr-4"></i><span class="text">Settings</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-wifi icons mr-4"></i><span class="text">Live</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-gamepad icons mr-4"></i><span class="text">Gaming</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-question-circle icons mr-4"></i><span class="text">Help</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link"><i class="fas fa-flag icons mr-4"></i><span class="text">Report</span></a>
+            </li>
+          </ul>
+        </div>
+        
+    </nav>
+  </section>
+
+  <section class="main-content">
+    <div class="container">
+        <h4 class="main-header-1">Recommended</h4>
+      <div class="row no-gutters">
+        
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/VMomFpKTWfE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>The European Dream Inside Anfield | The Journey to Madrid</p>
+                </div>
+            </div>      
+        </div>
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/jLQgp7oWLtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Not Just Me (FOX) Trailer HD - Brittany Snow, Emily drama series</p>
+                  </div>
+            </div>      
+        </div>
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/bPYnXiOVTvQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Suits Season 9 "Mike Returns" Trailer (HD) Final Season</p>
+                  </div>
+            </div>      
+        </div>
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/F7f85E8w2xE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>DANI OLMO | Magic Goals, Skills & Assists | 2018/2019 (HD)</p>
+                  </div>
+            </div>      
+        </div>
+        <!-- First Row End -->
+
+        <!-- Second Row Start -->
+        <h4 class="main-header-2">Because you searched for Coding and Liverpool</h4>
+        <div class="row no-gutters">
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/v0QTqHXiVNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Top 5 Javascript Things You Should Know!</p>
+                  </div>
+            </div>      
+        </div>
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/Cquakiwvff4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Incredible Mo Salah solo goal | Southampton 1-3 Liverpool</p>
+                </div>
+            </div>      
+        </div>
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/Law7wfdg_ls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>React Router Tutorial | React For Beginners</p>
+                  </div>
+            </div>      
+        </div>
+        <div class="col-md-3">
+            <div class="video-container">   
+                <div class="i-frame-container">
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/JeW5_Cj1zDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Sister of the Bride starring Becca Tobin and Ryan Rottman - Hallmark Channel</p>
+                  </div>
+            </div>      
+        </div>
+      </div>
+        
+       
+        
+      
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--Side Menu Container Start -->
+
+
+<!--Side Menu Container End -->
+
+<!--Main Body Container Start -->
+
+
+<!--Main Body Container End -->
+
+
+  </body>
+</html>
